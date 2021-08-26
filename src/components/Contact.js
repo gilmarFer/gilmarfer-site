@@ -22,7 +22,8 @@ export default function Contact() {
         process.env.REACT_APP_USER_ID
       );
       alert('Mensagem enviada com sucesso!')
-    }catch(_){
+    }catch(error){
+      console.log(error)
       alert('Erro ao tentar enviar a mensagem!')
     }
   }
