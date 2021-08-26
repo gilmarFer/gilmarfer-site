@@ -30,6 +30,9 @@ export default function Contact() {
 
   return (
     <section id="contact" className="text-center">
+      <p className="leading-relaxed mb-5">
+        <ChatIcon className="h-8 mx-auto" />
+      </p>
       <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
         Contato
       </h2>
@@ -87,9 +90,7 @@ export default function Contact() {
           <h2 className="text-white sm:text-3xl text-2xl mb-1 font-medium title-font">
             Me mande uma mensagem
           </h2>
-          <p className="leading-relaxed mb-5">
-            <ChatIcon className="h-8 mx-auto" />
-          </p>
+
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Nome
@@ -129,7 +130,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-primary-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Enviar
           </button>
         </form>

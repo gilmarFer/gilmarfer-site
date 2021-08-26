@@ -19,6 +19,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               target="_blank"
+              rel="noreferrer"
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">

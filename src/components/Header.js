@@ -11,16 +11,17 @@ export default function Header() {
             Desenvolvedor Web Full Stack
           </h1>
           <p className="mb-8 leading-relaxed">
+            Sou apaixonado por tecnologia e pelo seu poder
+            <br className="inline-block" />
             Desenvolvo sistemas Web, APIs, landing pages, SPAs, um pouco de UI/UX...
             <br className="inline-block" />
             Estudo Typescriot, Javascrit, React, Node, clean code, SOLID...
             <br className="inline-block" />
-            E pedalo uma media de 200km/ Mes
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-primary-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Contato
             </a>
             <a
