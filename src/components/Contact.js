@@ -10,6 +10,8 @@ export default function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
     try{
+      if(email.length < 1) return alert('Por favor preencha seu email!')
+      if(message.length < 1) return alert('Campo mensagem em branco!')
       const templateParams = {
         from_name: name,
         to_name: email,

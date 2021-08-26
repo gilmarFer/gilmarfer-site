@@ -28,5 +28,6 @@ export const skills = [
   {name: "Styled-Component", percent: '60'},
   {name: "NoSQL", percent: '60'},
   {name: "SQL", percent: '50'},
+  {name: "SCRUM", percent: '50'},
   {name: "TailwindCss", percent: '40'},
 ];

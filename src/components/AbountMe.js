@@ -17,9 +17,9 @@ export default function AboutMe() {
             <br />
             Atualmente sou estudante na área de desenvolvimento Web.
             <br />
-            Meu foco é atuar como back-end, entretanto foco meus estudos também no front-end.
+            Minha idéia é atuar no back-end, entretanto foco meus estudos também no front-end.
             <br />
-            A baixo você pode conferir minhas Skills
+            A baixo você pode conferir algumas das minhas Skills
           </p>
         </div>
       </div>
