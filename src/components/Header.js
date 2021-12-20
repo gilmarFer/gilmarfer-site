@@ -8,7 +8,7 @@ export default function Header() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Olá, eu sou Gilmar Fernandes
             <br className="inline-block" />
-            Desenvolvedor Web Full Stack
+            Desenvolvedor Mobile Full Stack
           </h1>
           <p className="mb-8 leading-relaxed">
             Sou apaixonado por tecnologia e pelo seu poder
