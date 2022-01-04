@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CCO from "./routes/cco";
-import Shedule from "./routes/shedule";
+import Schedule from "./routes/schedule";
 import Barbershop from "./routes/barber";
 
 ReactDOM.render(
@@ -12,7 +12,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/cco" element={<CCO />} />
-      <Route path="/shedule" element={<Shedule />} />
+      <Route path="/schedule" element={<Schedule />} />
       <Route path="/barber" element={<Barbershop />} />
     </Routes>
   </BrowserRouter>,
